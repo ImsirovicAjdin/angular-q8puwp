@@ -13,8 +13,8 @@ import 'rxjs/add/operator/map';
   //templateUrl: './app.component.html',
   //styleUrls: [ './app.component.css' ]
   template: `
-    <h1>{{clock | async}}</h1>
-  `
+    <h1>{{clock | async | date: 'MMM d, y, h:mm:ss a'}}</h1>
+  ` // the date pipe takes a format string https://angular.io/api/common/DatePipe
 })
 export class AppComponent  {
   clock = Observable

@@ -1,3 +1,5 @@
+// 002 Render an Observable Date with the Async and Date pipes
+
 import { Component } from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/observable/interval';
